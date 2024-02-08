@@ -65,8 +65,8 @@ export function App() {
         />
       </form>
       <div className='h-px bg-slate-700'></div>
-      <div className='flex flex-wrap grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[250px] overflow-auto 
-       scroll-mb-20
+      <div className='flex flex-wrap gap-6 overflow-auto 
+       scroll-mb-20 p-1
       '>
      <NewNoteCard onNoteCreated={onNoteCreated}/>
      

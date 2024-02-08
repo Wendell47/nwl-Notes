@@ -81,7 +81,7 @@ export default function newNoteCard({onNoteCreated}:newNoteCardProps){
     }
     return(
         <Dialog.Root>
-        <Dialog.Trigger className='bg-slate-700 flex flex-col text-left rounded-md p-5 space-y-2 overflow-hidden hover:ring-2 outline-none hover:ring-slate-600 focus-visible:ring-2 focus-visible:ring-lime-400'>
+        <Dialog.Trigger className='bg-slate-700 flex flex-col text-left rounded-md p-5 space-y-2 overflow-hidden hover:ring-2 outline-none hover:ring-slate-600 focus-visible:ring-2 focus-visible:ring-lime-400 w-full'>
         <span className='text-slate-200 text-sm '>Adicionar nota</span>
         <p className='text-sm leading-6 text-slate-400'> Comece <button className='text-lime-400 font-medium hover:text-lime-500'>gravando uma nota</button> em áudio ou se preferir <button className='text-lime-400 font-medium hover:text-lime-500'>utilize apenas texto.</button></p>
         
